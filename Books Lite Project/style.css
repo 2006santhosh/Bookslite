@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+  body{
+    font-family: "Poppins", sans-serif;
+    
+  } 
+    .navbar{
+        background-color: #fd6569;
+        color: black;
+        padding: 11px;
+        position: sticky;
+        top: 0px;
+    }
+    .book-container{
+      padding: 16px;
+      width: 26%;
+      border-radius: 10px;
+      margin: 25px;
+      background-color: black;
+      color: white;
+      display: inline-block;
+      vertical-align: top;
+      
+    }
+    .book{
+      padding: 12px;
+    }
+    .book-container h2{
+      color: #fd6569;
+    }
+    .book-container button{
+      background-color: #fd6569;
+      color: black;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border: none;
+      border-radius: 10px;
+    }
+    .add-button{
+      background-color: #fd6569;
+      color: black;
+      border: none;
+      border-radius: 100%;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 30px;
+      padding-right: 30px;
+      font-size: 42px;
+      position: fixed;
+      bottom: 31px;
+      right: 31px;
+    }
+    .pop-overlay{
+      width: 100%;
+      background-color: black;
+      opacity: 0.7;
+      position: absolute;
+      height: 100%;
+      z-index: 1;
+      top: 0px;
+      left: 0px;
+      display: none;
+    }
+    .box{
+      background-color: #fd6569;
+      color: black;
+      top: 20%;
+      left: 25%;
+      z-index: 2;
+      width: 40%;
+      position: absolute;
+      padding: 40px;
+      border-radius: 10px;
+      display: none;
+    }
+    .box input{
+      background: transparent;
+      border: none;
+      border-bottom: solid black 2px;
+      font-size: 20px;
+      width: 100%;
+      padding: 5px;
+      margin: 5px;
+      
+    }
+    .box textarea{
+      background: transparent;
+      border: solid black 2px;
+      font-size: 20px;
+      width: 100%;
+      padding: 5px;
+      margin: 5px;
+      
+    }
+    .box input::placeholder{
+      color: black;
+    }
+    .box textarea::placeholder{
+      color: black;
+    }
+    .box button{
+      background-color: black;
+      color: white;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin: 5px;
+      border: none;
+      border-radius: 10px;
+    }
+    .box input:focus{
+      outline: none;
+    }
+    .box textarea:focus{
+      outline: none;
+    }
+    .sant{
+      padding-left: 85%;
+    }
+    
+    
+  

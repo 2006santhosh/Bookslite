@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books Lite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+       <center><h1 class="me">BOOKS LITE</h1></center> <h4 class="sant">Designed By S.Santhosh</h4>
+    </div>
+    <div class="book">
+        <div class="book-container">
+            <h2>Money Matters</h2>
+            <h5>Daryl</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores atque dolores eligendi nihil autem, obcaecati tempore vel rem enim, magnam laboriosam itaque, pariatur fugit est voluptatem eum cumque architecto ullam!</p>
+            <button onclick="deletebook(event)">Delete</button>
+        </div>
+    </div>
+    <button class="add-button" id="add-pop">+</button>
+    <div class="pop-overlay"></div>
+    <div class="box">
+        <h2>Add Book</h2>
+        <input type="text" placeholder="Book Title" id="book-input">
+        <input type="text" placeholder="Book Author" id="author-input">
+        <textarea placeholder="Short Description" id="notes-input"></textarea> 
+        <button id="add-book">ADD</button>
+        <button class="cancel-book">CANCEL</button>
+    </div>
+    <script src="react.js"></script> 
+</body>
+</html>
+
